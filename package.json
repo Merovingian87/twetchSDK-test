@@ -1,0 +1,27 @@
+{
+  "name": "twetch-client-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/app.js",
+    "build": "webpack",
+    "watchBuild": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Merovingian87",
+  "license": "ISC",
+  "dependencies": {
+    "@twetch/sdk": "^0.2.6",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.3.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
